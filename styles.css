@@ -2,7 +2,7 @@
 body {
     font-family: "Amazon Ember", Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    margin: 50;
     padding: 0;
     background-color: #232f3e;
     color: #fff;
@@ -25,7 +25,7 @@ header h1 {
 /* Main content */
 main {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 50px auto;
     background-color: #2b3949;
     padding: 20px;
     border-radius: 5px;
