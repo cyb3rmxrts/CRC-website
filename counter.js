@@ -6,6 +6,9 @@ function incrementVisitorCount() {
     // If count is null or undefined, set it to 0
     if (!count) {
         count = 0;
+    } else {
+        // Convert retrieved count to a number
+        count = parseInt(count);
     }
 
     // Increment the count
@@ -18,7 +21,7 @@ function incrementVisitorCount() {
     console.log(`Visitor count: ${count}`);
 
     // Display the count on the webpage
-    document.getElementById('visitorCount').textContent = count;
+    document.getElementById('visitorCount').textContent = `Total visitors: ${count}`;
 }
 
 // Call the incrementVisitorCount function to increment the count
